@@ -1,0 +1,51 @@
+# ============================================================
+# INDUSMART AI - GITIGNORE
+# ============================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Java / Spring Boot
+indusmart-backend/target/
+indusmart-backend/*.log
+
+# Maven
+indusmart-backend/.classpath
+indusmart-backend/.project
+indusmart-backend/.settings/
+
+# React / Vite
+indusmart-frontend/node_modules/
+indusmart-frontend/dist/
+indusmart-frontend/build/
+indusmart-frontend/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage
+coverage/
