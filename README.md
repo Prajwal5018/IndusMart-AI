@@ -292,31 +292,50 @@ Provides sellers with access to:
                     │ Payments                │
                     └─────────────────────────┘
 
-🛠️ Technology Stack
-Frontend
-React.js
-Vite
-JavaScript
-React Router
-Axios
-Tailwind CSS
-Backend
-Java
-Spring Boot
-Spring Data JPA
-Spring Security
-JWT
-Bean Validation
-Lombok
-Maven
-Database
-MySQL
-API Documentation
-Swagger UI
-OpenAPI
-Payment Gateway
-Razorpay
-📁 Project Structure
+```
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+
+- React.js
+- Vite
+- JavaScript
+- React Router
+- Axios
+- Tailwind CSS
+
+## Backend
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- JWT
+- Bean Validation
+- Lombok
+- Maven
+
+## Database
+
+- MySQL
+
+## API Documentation
+
+- Swagger UI
+- OpenAPI
+
+## Payment Gateway
+
+- Razorpay
+
+---
+
+# 📁 Project Structure
+
+```text
 IndusMart-AI/
 │
 ├── indusmart-backend/
@@ -326,9 +345,14 @@ IndusMart-AI/
 │   │       ├── java/
 │   │       │   └── com/
 │   │       │       └── indusmart/
+│   │       │           ├── config/
 │   │       │           ├── controller/
 │   │       │           ├── dto/
+│   │       │           ├── email/
 │   │       │           ├── entity/
+│   │       │           ├── enums/
+│   │       │           ├── exception/
+│   │       │           ├── pdf/
 │   │       │           ├── repository/
 │   │       │           ├── security/
 │   │       │           └── service/
@@ -358,12 +382,17 @@ IndusMart-AI/
 │
 ├── .gitignore
 └── README.md
-🗄️ Database
+```
+
+---
+
+# 🗄️ Database
 
 The application uses MySQL.
 
 Main database tables include:
 
+```text
 users
 companies
 products
@@ -378,39 +407,52 @@ subscription_plans
 seller_subscriptions
 subscription_payments
 invoices
-🔑 User Roles
+```
+
+---
+
+# 🔑 User Roles
 
 The application supports:
 
+```text
 SELLER
 BUYER
-Buyer
+```
+
+### Buyer
 
 Can:
 
-Browse products
-Search products
-View product details
-Add products to cart
-Add products to wishlist
-Place orders
-Make payments
-View order history
-Cancel eligible orders
-Review products
-Seller
+- Browse products
+- Search products
+- View product details
+- Add products to cart
+- Add products to wishlist
+- Place orders
+- Make payments
+- View order history
+- Cancel eligible orders
+- Review products
+
+### Seller
 
 Can:
 
-Manage company
-Add products
-Edit products
-Delete products
-View company products
-Manage subscriptions
-Monitor uploaded products
-Access seller dashboard
-🔄 Core Marketplace Workflow
+- Manage company
+- Add products
+- Edit products
+- Delete products
+- View company products
+- Manage subscriptions
+- Monitor uploaded products
+- Access seller dashboard
+
+---
+
+# 🔄 Core Marketplace Workflow
+
+```text
 User Registration
        ↓
 User Login
@@ -441,93 +483,132 @@ Orders
        │
        ↓
 Reviews
-🔐 Security
+```
+
+---
+
+# 🔐 Security
 
 The application uses:
 
-JWT authentication
-Password hashing
-Protected API endpoints
-Protected frontend routes
-Role-based access
-Authenticated API requests
-Bean validation
+- JWT authentication
+- Password hashing
+- Protected API endpoints
+- Protected frontend routes
+- Role-based access
+- Authenticated API requests
+- Bean validation
 
 Passwords are stored using secure password hashing rather than plain text.
 
-🚀 Running the Project
-Backend
+---
 
-Open a terminal and navigate to:
+# 🚀 Running the Project
 
+## Backend
+
+Navigate to the backend directory:
+
+```bash
 cd indusmart-backend
+```
 
 Run the Spring Boot application:
 
+```bash
 mvn spring-boot:run
+```
 
 Backend:
 
+```text
 http://localhost:8081
+```
 
 Swagger UI:
 
+```text
 http://localhost:8081/swagger-ui/index.html
-Frontend
+```
+
+---
+
+## Frontend
 
 Open another terminal:
 
+```bash
 cd indusmart-frontend
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Start the development server:
 
+```bash
 npm run dev
+```
 
 Frontend:
 
+```text
 http://localhost:5173
-🤖 AI Vision
+```
+
+---
+
+# 🤖 AI Vision
 
 IndusMart AI is designed to evolve into an intelligent industrial marketplace with features such as:
 
-AI-powered product recommendations
-AI chatbot assistance
-Intelligent product discovery
-Personalized marketplace experiences
-Business analytics
-Seller insights
-📈 Future Enhancements
+- AI-powered product recommendations
+- AI chatbot assistance
+- Intelligent product discovery
+- Personalized marketplace experiences
+- Business analytics
+- Seller insights
+
+---
+
+# 📈 Future Enhancements
 
 The core marketplace is completed. Future versions may include:
 
-Advanced AI recommendation engine
-AI chatbot
-Advanced analytics
-Admin dashboard
-Notifications
-Invoice PDF generation
-Advanced product filtering
-Improved mobile experience
-Real-time communication
-Advanced seller analytics
-Additional UI improvements
-👨‍💻 Developer
+- Advanced AI recommendation engine
+- AI chatbot
+- Advanced analytics
+- Admin dashboard
+- Notifications
+- Invoice PDF generation
+- Advanced product filtering
+- Improved mobile experience
+- Real-time communication
+- Advanced seller analytics
+- Additional UI improvements
 
-Prajwal Shet
+---
+
+# 👨‍💻 Developer
+
+**Prajwal Shet**
 
 GitHub:
 
-Prajwal5018
+**Prajwal5018**
 
-📜 License
+---
+
+# 📜 License
 
 This project is currently intended for educational, portfolio, and demonstration purposes.
 
-⭐ IndusMart AI
+---
+
+# ⭐ IndusMart AI
 
 IndusMart AI brings industrial equipment buying, selling, and rental into one centralized digital marketplace.
 
