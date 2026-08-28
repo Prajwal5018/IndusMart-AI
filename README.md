@@ -578,13 +578,6 @@ IndusMart AI is designed to evolve into an intelligent industrial marketplace wi
 
 The core marketplace is completed. Future versions may include:
 
-- Advanced AI recommendation engine
-- AI chatbot
-- Advanced analytics
-- Admin dashboard
-- Notifications
-- Invoice PDF generation
-- Advanced product filtering
 - Improved mobile experience
 - Real-time communication
 - Advanced seller analytics
